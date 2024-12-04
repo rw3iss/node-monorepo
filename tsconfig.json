@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./build",
+        "rootDir": "./src",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "target": "ESNext",
+        "sourceMap": true,
+        "incremental": true,
+        "removeComments": true,
+        "preserveSymlinks": false,
+        "paths": {
+        }
+    },
+    "files": [
+        "src/index.mts"
+    ],
+    "references": [
+        { "path": "./modules/moduleapp" },
+        { "path": "./modules/moduleb" },
+        { "path": "./modules/modulec" }
+    ],
+    "include": [
+    ],
+    "exclude": [
+        "**/node_modules",
+    ]
+}
