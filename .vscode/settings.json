@@ -6,15 +6,15 @@
         "**/CVS": false,
         "**/.DS_Store": false,
         "**/Thumbs.db": false,
-        "**/package-lock.json": true,
-        "**/tsconfig.tsbuildinfo": true,
-        "**/build": true,
-        "**/node_modules": true,
-        "**/tsconfig.build.json": true,
-        "**/tsconfig.build.tsbuildinfo": true,
-        "package-lock.json": true,
-        "tsconfig.base.json": true,
-        "**/tsconfig.json": true
+        "**/package-lock.json": false,
+        "**/tsconfig.tsbuildinfo": false,
+        "**/build": false,
+        "**/node_modules": false,
+        "**/tsconfig.build.json": false,
+        "**/tsconfig.build.tsbuildinfo": false,
+        "package-lock.json": false,
+        "tsconfig.base.json": false,
+        "**/tsconfig.json": false
     },
     "explorerExclude.backup": {}
 }

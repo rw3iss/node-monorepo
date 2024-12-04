@@ -10,7 +10,7 @@
         "prebuild": "npm run clean",
         "build": "tsc --build tsconfig.build.json",
         "clean": "tsc --build tsconfig.build.json --clean",
-        "postclean": "rimraf dist"
+        "postclean": "rimraf build"
     },
     "author": "",
     "license": "ISC",
